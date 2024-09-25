@@ -45,7 +45,7 @@ const Hero = () => {
                     variants={container(1.75)}
                     initial="hidden"
                     animate="visible"
-                    href="AyushPrakashResume.pdf"
+                    href="A_P_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     download
