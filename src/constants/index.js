@@ -1,3 +1,4 @@
+import LVlogo1 from "../assets/projects/LVlogo1.png";
 import pro from "../assets/projects/pro.png";
 import pro1 from "../assets/projects/pro1.png";
 import pro3 from "../assets/projects/pro31.png";
@@ -21,6 +22,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Lavish Villas - Real Estate Platform",
+    image: LVlogo1,
+    description:
+      "Lavish Villas is a full-featured real estate platform that helps users browse luxurious villas for sale or rent. The platform offers advanced filtering options, detailed villa information, and a seamless user experience for property seekers.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
+  },
   {
     title: "Fitness Freak Gym - GYM Website",
     image: pro,

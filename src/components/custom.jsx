@@ -43,7 +43,7 @@ const CustomCpp = ({ size = '60px', color = 'white', backgroundColor = '#004482'
     );
   };
 
-  const CustomPython = ({ size = '60px', color = 'white', backgroundColor = 'black' }) => {
+  const CustomPython = ({ size = '60px', backgroundColor = 'black' }) => {
     return (
       <div
         style={{
@@ -53,13 +53,11 @@ const CustomCpp = ({ size = '60px', color = 'white', backgroundColor = '#004482'
           alignItems: 'center',
           justifyContent: 'center',
           backgroundColor: backgroundColor,
-          color: color,
           borderRadius: '10px', // Optional: for rounded corners
           fontSize: '30px', // Adjust the font size
           fontWeight: 'bold', // Make the letters bold
           background: 'linear-gradient(90deg, #004482, #FFD43B)', // Gradient from blue to yellow
           WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'text',
           WebkitTextFillColor: 'transparent', // Ensure text is transparent
           color: 'transparent',
         }}
