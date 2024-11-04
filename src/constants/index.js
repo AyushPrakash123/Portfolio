@@ -1,3 +1,5 @@
+import RElogo from "../assets/projects/settings2.png";
+import weather from "../assets/projects/icon.webp";
 import LVlogo1 from "../assets/projects/LVlogo1.png";
 import pro from "../assets/projects/pro.png";
 import pro1 from "../assets/projects/pro1.png";
@@ -22,6 +24,12 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "3-Tier Rule Engine - Eligibility System",
+    image: RElogo,
+    description: "This 3-tier Rule Engine application determines user eligibility based on dynamic attributes like age, department, income, and spending. Users can create, modify, and combine rules with a straightforward interface, leveraging an Abstract Syntax Tree (AST) structure for efficient evaluation.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Express", "AST", "Tailwind CSS", "Vite"]
+  },
   {
     title: "Lavish Villas - Real Estate Platform",
     image: LVlogo1,
@@ -63,6 +71,12 @@ export const PROJECTS = [
     description:
       "Manage Fest is an event management platform where users can browse and book events. With a focus on functionality and efficiency, this application delivers a smooth booking process for various events.",
     technologies: ["HTML", "CSS", "Node.js", "Express", "MongoDB", "React"],
+  },
+  {
+    title: "Real-Time Weather Monitoring System",
+    image: weather,
+    description: "A real-time data processing system that aggregates weather data using the OpenWeatherMap API. The platform provides insights into dominant weather conditions, along with minimum, maximum, and average temperatures, using data rollups and aggregates for accuracy.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Express", "OpenWeatherMap API", "JavaScript"]
   },
 ];
 
